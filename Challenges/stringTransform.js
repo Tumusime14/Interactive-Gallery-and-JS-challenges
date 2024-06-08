@@ -13,6 +13,6 @@ function transformString(str) {
     return result;
 }
 // write to id output
-document.write(transformString('Hamburger') + '<br>');
-document.write(transformString('Pizza') + '<br>');
-document.write(transformString('Chocolate Chip Cookie') + '<br>');
+console.log(transformString('Hamburger') + '<br>');
+console.log(transformString('Pizza') + '<br>');
+console.log(transformString('Chocolate Chip Cookie') + '<br>');
