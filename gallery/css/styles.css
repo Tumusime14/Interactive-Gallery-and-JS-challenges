@@ -10,8 +10,7 @@ body {
     align-items: center;
     height: 100vh;
     width: 100%;
-    background-color: #f0f0f0;
-    margin: 0;
+    background-color: #000000;
 }
 .gallery {
     display: grid;
@@ -51,30 +50,8 @@ body {
     color: rgb(15, 222, 254);
     visibility: hidden;
 }
-.photos:hover img {
-    filter: brightness(20%);
-}
-.photos:hover span {
-    visibility: visible;
-}
 
 /* Responsive Styles */
-
-/* Tablets */
-@media (max-width: 768px) {
-    .gallery {
-        grid-template-columns: 25% 25% 25% 25%;
-    }
-    .photos h2 {
-        font-size: 20px;
-    }
-    .photos p {
-        font-size: 14px;
-    }
-    .photos span {
-        font-size: 12px;
-    }
-}
 
 /* Mobile Phones */
 @media (max-width: 480px) {
@@ -89,5 +66,20 @@ body {
     }
     .photos span {
         font-size: 10px;
+    }
+}
+/* Tablets */
+@media (max-width: 768px) {
+    .gallery {
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+    .photos h2 {
+        font-size: 20px;
+    }
+    .photos p {
+        font-size: 14px;
+    }
+    .photos span {
+        font-size: 12px;
     }
 }
