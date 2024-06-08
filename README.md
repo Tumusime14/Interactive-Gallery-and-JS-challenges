@@ -1,32 +1,35 @@
 # Interactive-Gallery-and-JS-challenges
 
 ## Overview
-This project contains an interactive photo gallery and two JavaScript challenges
-along with solving two JavaScript coding challenges.
+This project contains an interactive photo gallery and two JavaScript challenges.
 
 
-This project includes two main Features:
+This project includes two challenges:
 
 1. Interactive Gallery: A gallery of images that reacts to mouse hover events, applying visual filters and animations.
-2. JavaScript Challengs: A JavaScript functions that transforms a string based on its length and the presence of alphanumeric characters and spaces.
+2. JavaScript Challengs: A JavaScript functions that transforms a string based on its length and the presence of alphanumeric characters and spaces and Array manipulation.
 
 ## FEATURES
 
 Interactive Gallery
 
-- Hover Effects: Images blur, dim, and grayscale when hovered over, while the accompanying text moves and a span element becomes visible.
-- Responsive Design: The gallery layout adapts to different screen sizes (mobile phones, tablets, and desktops).
+- Hover Effects: Images blur, dim, and grayscale when hovered over,
+ while the accompanying text moves and a span element becomes visible.
 
-### String Transformation Function
+- Responsive Design: The gallery layout adapts to different screen sizes
+ (mobile phones, tablets, and desktops).
 
-- Validation: it ensures the input string contains only alphanumeric characters and spaces, and its length is between 1 and 1000.
+### String Transformation Function and Array Manipulation
+
+- Validation: it ensures the input string contains only alphanumeric characters 
+    and spaces, and its length is between 1 and 1000.
 - Transformation Rules**:
   - If the string length is divisible by 3, reverse the string.
   - If the string length is divisible by 5, convert each character to its ASCII code.
   - If the string length is divisible by 15, reverse the string and convert each character to its ASCII code.
   - If none of the above conditions are met, return `false`.
 
-## SETTUP AND RUNNING PROJECT.
+## SETUP AND RUNNING PROJECT.
 
 Prerequisites
 
@@ -38,9 +41,9 @@ Prerequisites
 
 1. Clone the Repository
 
-   ```bash
-   [REPOSITORY](https://github.com/Tumusime14/Interactive-Photo-GalleryCoA)
-   ```
+
+   [REPOSITORY]([https://github.com/Tumusime14GalleryCoA/Interactive-Photo-])
+
 
 2. File Structure
 
@@ -64,7 +67,7 @@ Prerequisites
                          
    
 
-3. **Running the Project**
+3. Running the Project
 
    - Open the `index.html` file in a web browser to see the interactive gallery in action.
    - The console will display outputs from the `transformString` and `subArraySum` functions.
